@@ -21,7 +21,6 @@ imagesColorG[2] = 'img/s3a.png';
 var i = 0;
 
 function changeImage() {
-
     imgHtml.setAttribute('src', imagesColor[i])
     imgHtml2.setAttribute('src', imagesColorG[i])
     h1_id.innerHTML = h1Change[i]
