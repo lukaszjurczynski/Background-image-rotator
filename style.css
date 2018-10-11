@@ -47,8 +47,11 @@ header::after {
     right: 0;
     height: 98%;
     z-index: 1;
-    animation: color 4s linear infinite;
     z-index: 2;
+}
+
+.imgCanimate {
+    animation: color 4s linear infinite;
 }
 
 .grey {
@@ -56,8 +59,12 @@ header::after {
     bottom: -5%;
     left: -20%;
     height: 90%;
-    animation: grey 4s linear infinite;
     z-index: 1;
+}
+
+.imgGanimate {
+    animation: grey 4s linear infinite;
+
 }
 
 div {
@@ -75,6 +82,9 @@ div {
     color: #fff;
     font-family: Alegreya, Roboto Condensed, Roboto, sans-serif;
     text-shadow: 0rem .2rem .6rem #000;
+}
+
+.textAnimate {
     animation: textAnim 4s linear infinite;
 }
 
