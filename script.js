@@ -1,8 +1,5 @@
 function documentReady () {
-    var imgHtml = document.querySelector('img');
-    var imgHtml2 = document.querySelector('.grey');
-    var titleH1 = document.getElementById('h1_id');
-    var titleH2 = document.getElementById('h2_id');
+   
     var h1Change = [];
     h1Change[0] = "Katarzyna Kowalska";
     h1Change[1] = "Lucjan Kowalski";
@@ -22,6 +19,10 @@ function documentReady () {
     var i = 0;
 
     function changeImage() {
+        var imgHtml = document.querySelector('img');
+        var imgHtml2 = document.querySelector('.grey');
+        var titleH1 = document.getElementById('h1_id');
+        var titleH2 = document.getElementById('h2_id');
         imgHtml.setAttribute('src', imagesColor[i])
         imgHtml2.setAttribute('src', imagesColorG[i])
         h1_id.innerHTML = h1Change[i]
