@@ -73,8 +73,9 @@ div {
 
 .text {
     color: #fff;
-    font-family: Alegreya, Roboto Condensed, Roboto;
+    font-family: Alegreya, Roboto Condensed, Roboto, sans-serif;
     text-shadow: 0rem .2rem .6rem #000;
+    animation: textAnim 4s linear infinite;
 }
 
 h1 {
@@ -129,6 +130,27 @@ h2 {
         opacity: 0;
         transform: translateX(5%) scale(1.05);
     }
+}
+
+@keyframes textAnim {
+    0% {
+        opacity: 0;
+    }
+    4% {
+        opacity: 0;
+    }
+    8% {
+        opacity: 0.9;
+    }
+    92% {
+        opacity: .9;
+    }
+    96% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    } 
 }
 
 @media screen and (max-width: 960px) {
